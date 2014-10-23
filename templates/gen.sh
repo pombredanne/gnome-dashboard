@@ -9,9 +9,9 @@ python apply_template.py --template body.template --content common/repository.tm
 python apply_template.py --template body.template --content common/data_sources.tmpl > ../browser/data_sources.html
 python apply_template.py --template body.template --content common/project_map.tmpl > ../browser/project_map.html
 python apply_template.py --template body.template --content common/project.tmpl > ../browser/project.html
-python apply_template.py --template body.template --content common/demographics.tmpl > ../browser/demographics.html
+# python apply_template.py --template body.template --content common/demographics.tmpl > ../browser/demographics.html
 python apply_template.py --template body.template --content common/domain.tmpl > ../browser/domain.html
-python apply_template.py --template body.template --content common/timezones.tmpl > ../browser/timezones.html
+# python apply_template.py --template body.template --content common/timezones.tmpl > ../browser/timezones.html
 python apply_template.py --template body.template.releases --content common/releases.tmpl > ../browser/release.html
 
 cp common/footer.tmpl ../browser/footer.html
