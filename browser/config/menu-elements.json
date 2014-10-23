@@ -13,7 +13,7 @@
 	"studies": [
             "demographics"
 	],
-	"extra": []
+	"extra": [["Time zones","timezones.html"]]
     },
     "releases":[]
 }
